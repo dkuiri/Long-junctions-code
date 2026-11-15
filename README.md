@@ -74,7 +74,7 @@ while $k_y$ is a good quantum number for a translationally invariant junction.
 The magnetic field and spin-orbit coupling are included only in the normal region.
 
 
-### 2.1 Analytical Model of Andreev Bound States
+### 2.1 Analytical Model of Andreev Bound States:
 
 To understand the effect of junction elongation, we first consider a perfectly transparent Josephson junction.
 
