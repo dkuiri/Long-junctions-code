@@ -81,23 +81,12 @@ To understand the effect of junction elongation, we first consider a perfectly t
 The spin-resolved Andreev bound-state energies are given by:
 
 $$
-E_{\sigma}(\phi)
-=
-\pm\Delta
-\left|
-\cos\left(
-\frac{\phi}{2}+\varphi_{\sigma}
-\right)
-\right|
+E_{\sigma}(\phi)=\pm\Delta\left|\cos\left(\frac{\phi}{2}+\varphi_{\sigma}\right)\right|
 $$
 
 The Zeeman-induced phase shift is:
 
-$$
-\varphi_{\sigma}
-=
-\frac{\sigma E_Z L_j}{\hbar v_F}
-$$
+$$\varphi_{\sigma}= \frac{\sigma E_Z L_j}{\hbar v_F}$$
 
 where:
 
@@ -117,11 +106,7 @@ Here, $L_j$ is the junction length, $g$ is the effective g-factor and $\mu_B$ is
 
 The zero-energy solutions of the Andreev bound-state spectrum determine the boundaries of the topological phase:
 
-$$
-\phi_{\pm}
-=
-\pm\chi B L_j+\pi(1+2n)
-$$
+$$\phi_{\pm}= \pm\chi B L_j+\pi(1+2n)$$
 
 where:
 
@@ -145,17 +130,12 @@ We consider a system that is finite along the junction direction and translation
 
 The excitations are obtained from the system Green's function:
 
-$$
-G^{-1}(\omega)
-=
-\omega-H_0-\Sigma(\omega).
+$$G^{-1}(\omega) = \omega-H_0-\Sigma(\omega).
 $$
 
 Here, $\Sigma(\omega)$ is the self-energy resulting from the uniform coupling of the semiconductor to the parent superconductor:
 
-$$
-\Sigma(\omega)
-=
+$$ \Sigma(\omega) =
 -\gamma
 \frac{
 \omega\sigma_0\otimes\sigma_0
@@ -179,18 +159,13 @@ $$
 
 The pairing matrices are defined as
 
-$$
-\tau_{\pm}
-=
+$$ \tau_{\pm} =
 \frac{\tau_x\pm i\tau_y}{2}.
 $$
 
 The density of states is calculated using
 
-$$
-\rho(\omega)
-=
--\frac{1}{\pi}
+$$ \rho(\omega) = -\frac{1}{\pi}
 \operatorname{Im}[G(\omega)].
 $$
 
@@ -260,10 +235,7 @@ The numerical calculations are performed using Python and the Kwant quantum tran
 
 To distinguish states localized in the normal region from states residing in the superconducting contacts, we calculate the wave-function weight:
 
-$$
-W_N
-=
-\int_{-L_j/2}^{L_j/2}
+$$ W_N = \int_{-L_j/2}^{L_j/2}
 |\Psi(x,k_y)|^2\,dx.
 $$
 
