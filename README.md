@@ -163,8 +163,9 @@ $$
 
 The density of states is calculated using
 
-$$
-\rho(\omega) = -\frac{1}{\pi}\operatorname{Im}[G(\omega)]
+$$\rho(\omega)=
+-\frac{1}{\pi}
+\mathrm{Im}\left[G(\omega)\right]
 $$
 
 This approach allows us to investigate the induced superconducting gap and the appearance of additional in-gap states as the junction length increases.
