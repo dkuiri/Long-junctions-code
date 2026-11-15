@@ -6,7 +6,7 @@ The work investigates how increasing the separation between superconducting elec
 
 We show that elongating the junction enhances the Zeeman-induced phase shift of Andreev bound states, resulting in a wider topological phase region. However, longer junctions also support additional trivial in-gap states that can destroy the induced superconducting gap and prevent the formation of Majorana bound states.
 
-We demonstrate that these unwanted states can be suppressed by introducing additional superconducting contacts at the top and bottom of the junction. We also show that the topological transition can be probed through measurements of the critical current.
+We show that introducing additional superconducting contacts at the top and bottom of the junction suppresses these unwanted states. We also show that the topological transition can be probed through measurements of the critical current.
 
 **Publication:** Physical Review B 111, 085416 (2025)
 
@@ -128,7 +128,7 @@ We first investigate the dispersion relation of an SNS junction to understand ho
 
 We consider a system that is finite along the junction direction and translationally invariant in the perpendicular direction.
 
-The excitations are obtained from the system Green's function:
+The excitations are obtained from the system's Green's function:
 
 $$G^{-1}(\omega) = \omega-H_0-\Sigma(\omega).
 $$
@@ -311,13 +311,7 @@ However, the topological transition can still be investigated through the critic
 
 The Josephson current is calculated from the Andreev bound-state energies:
 
-$$
-I(\phi)
-=
--\frac{e}{\hbar}
-\sum_{E_i>0}
-\frac{\partial E_i}{\partial\phi}.
-$$
+$$ I(\phi) = -\frac{e}{\hbar} \sum_{E_i>0} \frac{\partial E_i}{\partial\phi}.$$
 
 The critical current is defined as
 
@@ -327,11 +321,7 @@ $$
 
 The ground-state phase is determined by minimizing the total energy of the junction:
 
-$$
-E_j(\phi)
-=
-\sum_{E_i<0}E_i(\phi).
-$$
+$$ E_j(\phi) = \sum_{E_i<0}E_i(\phi).$$
 
 We find that the topological transition is accompanied by a minimum in the critical current. At the same transition, the ground-state phase switches from a value close to zero to a value close to $\pi$.
 
