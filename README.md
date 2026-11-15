@@ -130,8 +130,7 @@ We consider a system that is finite along the junction direction and translation
 
 The excitations are obtained from the system's Green's function:
 
-$$G^{-1}(\omega) = \omega-H_0-\Sigma(\omega).
-$$
+$$G^{-1}(\omega) = \omega-H_0-\Sigma(\omega).$$
 
 Here, $\Sigma(\omega)$ is the self-energy resulting from the uniform coupling of the semiconductor to the parent superconductor:
 
@@ -159,15 +158,12 @@ $$
 
 The pairing matrices are defined as
 
-$$ \tau_{\pm} =
-\frac{\tau_x\pm i\tau_y}{2}.
+$$ \tau_{\pm} =\frac{\tau_x\pm i\tau_y}{2}.
 $$
 
 The density of states is calculated using
 
-$$ \rho(\omega) = -\frac{1}{\pi}
-\operatorname{Im}[G(\omega)].
-$$
+$$ \rho(\omega) = -\frac{1}{\pi} \operatorname{Im}[G(\omega)]$$
 
 This approach allows us to investigate the induced superconducting gap and the appearance of additional in-gap states as the junction length increases.
 
