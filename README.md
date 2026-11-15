@@ -73,11 +73,12 @@ while $k_y$ is a good quantum number for a translationally invariant junction.
 
 The magnetic field and spin-orbit coupling are included only in the normal region.
 
+
 ### 2.1 Analytical Model of Andreev Bound States
 
 To understand the effect of junction elongation, we first consider a perfectly transparent Josephson junction.
 
-The spin-resolved Andreev bound-state energies are given by
+The spin-resolved Andreev bound-state energies are given by:
 
 $$
 E_{\sigma}(\phi)
@@ -87,29 +88,29 @@ E_{\sigma}(\phi)
 \cos\left(
 \frac{\phi}{2}+\varphi_{\sigma}
 \right)
-\right|.
+\right|
 $$
 
-The Zeeman-induced phase shift is
+The Zeeman-induced phase shift is:
 
 $$
 \varphi_{\sigma}
 =
-\frac{\sigma E_Z L_j}{\hbar v_F},
+\frac{\sigma E_Z L_j}{\hbar v_F}
 $$
 
 where
 
 $$
-E_Z=\frac{g\mu_B B}{2},
+E_Z=\frac{g\mu_B B}{2}
 $$
 
 and $\sigma=\pm1$ denotes the two spin components.
 
-The Fermi velocity is
+The Fermi velocity is:
 
 $$
-v_F=\sqrt{\frac{2\mu}{m^{\ast}}}.
+v_F=\sqrt{\frac{2\mu}{m^{\ast}}}
 $$
 
 Here, $L_j$ is the junction length, $g$ is the effective g-factor and $\mu_B$ is the Bohr magneton.
@@ -119,24 +120,20 @@ The zero-energy solutions of the Andreev bound-state spectrum determine the boun
 $$
 \phi_{\pm}
 =
-\pm\chi B L_j+\pi(1+2n),
+\pm\chi B L_j+\pi(1+2n)
 $$
 
 where $n\in\mathbb{Z}$ and
 
 $$
-\chi=\frac{g\mu_B}{\hbar v_F}.
+\chi=\frac{g\mu_B}{\hbar v_F}
 $$
 
-Consequently, the phase span of the topological regime is
+Consequently, the phase span of the topological regime is:
 
 $$
 \boxed{
-\Delta\phi
-=
-|\phi_+-\phi_-|
-=
-2\chi B L_j
+\Delta\phi=2\chi B L_j
 }
 $$
 
