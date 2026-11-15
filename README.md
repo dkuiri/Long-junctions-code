@@ -74,7 +74,7 @@ while $k_y$ is a good quantum number for a translationally invariant junction.
 The magnetic field and spin-orbit coupling are included only in the normal region.
 
 
-### 2.1 Analytical Model of Andreev Bound States:
+### 2.1 Analytical Model of Andreev Bound States
 
 To understand the effect of junction elongation, we first consider a perfectly transparent Josephson junction.
 
@@ -99,13 +99,13 @@ $$
 \frac{\sigma E_Z L_j}{\hbar v_F}
 $$
 
-where
+where:
 
 $$
 E_Z=\frac{g\mu_B B}{2}
 $$
 
-and $\sigma=\pm1$ denotes the two spin components.
+Here, $\sigma=\pm1$ denotes the two spin components.
 
 The Fermi velocity is:
 
@@ -123,7 +123,7 @@ $$
 \pm\chi B L_j+\pi(1+2n)
 $$
 
-where $n\in\mathbb{Z}$ and
+where:
 
 $$
 \chi=\frac{g\mu_B}{\hbar v_F}
@@ -132,9 +132,7 @@ $$
 Consequently, the phase span of the topological regime is:
 
 $$
-\boxed{
 \Delta\phi=2\chi B L_j
-}
 $$
 
 This is the central result of the analytical model. It shows that the topological phase span increases linearly with junction length at a fixed magnetic field.
